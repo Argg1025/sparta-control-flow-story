@@ -59,6 +59,7 @@ function controlFlow() {
                 console.log(alert("That is not an option."))
             }
         }
+        // ====NO DECISION=====
     } else if (decision === "no") {
         while (punishment !== "prison" || punishment !== "banished") {
             var punishment = prompt("You will now face the consequences! Will you face prison or will you be banished from this land?");
